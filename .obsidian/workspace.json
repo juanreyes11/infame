@@ -11,14 +11,10 @@
             "id": "aff17e0a8bc0ccac",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/La Ayuda Mutua.md",
-                "mode": "preview",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "La Ayuda Mutua"
+              "title": "Nueva pestaña"
             }
           }
         ]
@@ -99,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/La Ayuda Mutua.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/La Ayuda Mutua.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -202,6 +196,10 @@
   },
   "active": "6611d33248904a73",
   "lastOpenFiles": [
+    "posts/posts/la-ayuda-mutua.html",
+    "posts/posts",
+    "posts/Archivo Pagina",
+    "La Ayuda Mutua.md",
     "posts/La Ayuda Mutua.md",
     "posts/#.md",
     "README.md"
