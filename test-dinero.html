@@ -19,33 +19,120 @@
 
     <main>
         <article>
-            <h2>Exploración de Creencias Financieras</h2>
-            
-            <p>
-                Este primer test nos ayuda a revelar las creencias que tenemos con relación al dinero. El test es un instrumento de exploración reflexiva basado conceptualmente en el marco teórico de los guiones de dinero propuesto por Klontz et al. (2011)   
-                El test arroja 4 creencias que pueden estar presentes en nuestra relación con el dinero:
+            <p class="intro-texto">
+        Este test es un instrumento de exploración reflexiva basado conceptualmente en el marco teórico de los guiones de dinero propuesto por <em>Klontz et al. (2011)</em>. Su objetivo es revelar los patrones inconscientes y esquemas conductuales presentes en nuestra relación con los recursos materiales.
+    </p>
 
-                1. Evitación: creencia que nos lleva a evitar el dinero y que nos puede generar trastornos financieros como hacer una negación financiera, rechazar el dinero, o tener aversión excesiva a tomar riesgos. 
+    <div class="grid-creencias">
+        <!-- 1. Evitación -->
+        <div class="card-creencia">
+            <div class="card-header">
+                <span class="badge-numero">01</span>
+                <h3>Evitación</h3>
+            </div>
+            <p>Creencia que impulsa a rechazar o distanciarse del dinero, operando como un mecanismo de defensa frente a la ansiedad.</p>
+            <p class="card-alerta"><strong>Manifestaciones:</strong> Negación financiera, aversión extrema a la toma de riesgos y desatención de compromisos económicos.</p>
+        </div>
 
-                2. Adoración: creencia que nos lleva a adorar el dinero. Esto nos puede llevar a pensar a que un aumento en los ingresos ó ganancia financiera resuelve todos los problemas. Algunos trastornos financieros asociados a esta creencia: adicción al trabajo, gastos excesivos, entre otros.
-                
-                3. Status: crencia que nos lleva a asociar la autoestima con el dinero. Esto nos puede llevar a tener gastos excesivos o a tomar riesgos irracionales.
+        <!-- 2. Adoración -->
+        <div class="card-creencia">
+            <div class="card-header">
+                <span class="badge-numero">02</span>
+                <h3>Adoración</h3>
+            </div>
+            <p>Convicción de que el incremento de ingresos o la acumulación material resolverá automáticamente cualquier tensión personal o existencial.</p>
+            <p class="card-alerta"><strong>Manifestaciones:</strong> Adicción al trabajo, consumo compulsivo y postergación del bienestar presente.</p>
+        </div>
 
-                4. Vigilancia: creencia que nos lleva a tener secretismo y verguenza hacia el dinero. Si bien puede fomentar el ahorro, puede tambien impedirnos el goze o el disfrute financiero.
-            </p>
-            
-            <p>
-                La plantilla contiene el cuestionario y las instrucciones paso a paso 
-                para completar el ejercicio de forma autónoma. Solo tu puedes ver las respuestas o reflexiones.
+        <!-- 3. Estatus -->
+        <div class="card-creencia">
+            <div class="card-header">
+                <span class="badge-numero">03</span>
+                <h3>Estatus</h3>
+            </div>
+            <p>Tendencia a vincular el valor y la autoestima individual de manera directa con la capacidad de consumo y la validación externa visible.</p>
+            <p class="card-alerta"><strong>Manifestaciones:</strong> Sobrendeudamiento por apariencia social y asunción irracional de riesgos financieros.</p>
+        </div>
 
-                Si quieres profundizar los resultados, escribe un correo a: finovalis11@gmail.com
-            </p>
+        <!-- 4. Vigilancia -->
+        <div class="card-creencia">
+            <div class="card-header">
+                <span class="badge-numero">04</span>
+                <h3>Vigilancia</h3>
+            </div>
+            <p>Postura de reserva estricta, secretismo o cautela excesiva ante los recursos. Si bien fomenta la prudencia y el ahorro, puede tornarse rígida.</p>
+            <p class="card-alerta"><strong>Manifestaciones:</strong> Dificultad para el disfrute o goce del excedente material y miedo permanente a la escasez.</p>
+        </div>
+    </div>
+</section>
 
-            <p style="margin-top: 30px;">
-                <a href="test_creencias_financieras.xlsx" download style="display: inline-block; padding: 12px 20px; border: 1px solid #fff; text-decoration: none; font-weight: bold;">
-                    ⬇ Descargar Test en Excel (.xlsx)
-                </a>
-            </p>
+<!-- Estilos integrados (puedes dejarlos aquí o moverlos a tu css/style.css) -->
+<style>
+    .contenedor-test {
+        margin: 30px 0;
+        line-height: 1.6;
+    }
+
+    .intro-texto {
+        font-size: 1.05rem;
+        margin-bottom: 30px;
+        color: #d1d1d1;
+    }
+
+    .grid-creencias {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .card-creencia {
+        border: 1px solid #333;
+        border-radius: 6px;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.02);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card-header {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-bottom: 12px;
+        border-bottom: 1px solid #292929;
+        padding-bottom: 8px;
+    }
+
+    .badge-numero {
+        font-family: monospace;
+        font-size: 0.85rem;
+        padding: 2px 8px;
+        border: 1px solid #555;
+        border-radius: 4px;
+        color: #aaa;
+    }
+
+    .card-creencia h3 {
+        margin: 0;
+        font-size: 1.2rem;
+        letter-spacing: 0.5px;
+    }
+
+    .card-creencia p {
+        font-size: 0.95rem;
+        margin-bottom: 15px;
+    }
+
+    .card-alerta {
+        font-size: 0.88rem !important;
+        padding-top: 10px;
+        border-top: 1px dashed #333;
+        color: #aaa;
+        margin-bottom: 0 !important;
+    }
+</style>
         </article>
     </main>
 </body>
