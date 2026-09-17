@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/la-ayuda-mutua.md",
+                "file": "La Propuesta.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "la-ayuda-mutua"
+              "title": "La Propuesta"
             }
           }
         ]
@@ -176,7 +176,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "posts/la-ayuda-mutua.md"
+                "file": "La Propuesta.md"
               },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
@@ -203,11 +203,14 @@
   },
   "active": "aff17e0a8bc0ccac",
   "lastOpenFiles": [
+    "propuesta.html",
+    "posts/la-ayuda-mutua.md",
+    "La Propuesta.md",
+    "posts/la-ayuda-mutua 1.md",
     "README.md",
     "publicar.ps1",
     "template.html",
     "Template",
-    "posts/la-ayuda-mutua.md",
     "La Ayuda Mutua.md",
     "posts/La Ayuda Mutua.md",
     "posts/la-ayuda-mutua.html",
