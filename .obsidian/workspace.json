@@ -11,10 +11,14 @@
             "id": "aff17e0a8bc0ccac",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "posts/la-ayuda-mutua.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "Nueva pestaña"
+              "title": "la-ayuda-mutua"
             }
           }
         ]
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "posts/la-ayuda-mutua.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "posts/la-ayuda-mutua.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "posts/la-ayuda-mutua.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -168,7 +175,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {},
+              "state": {
+                "file": "posts/la-ayuda-mutua.md"
+              },
               "icon": "lucide-info",
               "title": "Propiedades del archivo"
             }
@@ -194,6 +203,7 @@
   },
   "active": "aff17e0a8bc0ccac",
   "lastOpenFiles": [
+    "README.md",
     "publicar.ps1",
     "template.html",
     "Template",
@@ -204,7 +214,6 @@
     "posts/posts/la-ayuda-mutua.html",
     "posts/posts",
     "posts/Archivo Pagina",
-    "posts/#.md",
-    "README.md"
+    "posts/#.md"
   ]
 }
